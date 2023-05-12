@@ -1,0 +1,104 @@
+
+
+body{
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+p{
+	font-size: 15px;
+	margin: 0;
+}
+h2{
+	color: black;
+	font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.card {
+ 
+  margin: 5% 35% 0 35%;
+  padding: 75px;
+
+  box-shadow: 0 4px 8px 0 rgba(255, 2, 2, 0.2);
+  transition: 0.3s;
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.container {
+  padding: 2px 16px;
+}
+
+.textbox{
+	margin-bottom: 25px;
+	padding: 5px;
+	border: 0;
+	background-color: #EAEDED;
+	border-bottom: 2px solid #8E44AD;
+	font-size: 15px;
+}
+
+.User_img{
+	width: 200px;
+	height: 200px;
+}
+
+.btn_Next{
+	margin-top: 15px;
+	width: 150px;
+	border:0;
+	background-color: #3498DB;
+	color: #fff;
+	padding: 10px 25px 10px 25px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.btn_Next:hover{
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+	background-color: #2874A6;
+}
+
+.btn_signin{
+	margin-top: 15px;
+	width: 150px;
+	border:0;
+	background-color: black;
+	color: #fff;
+	padding: 10px 25px 10px 25px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.btn_signin:hover{
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+	background-color: #0066ff;
+}
+
+.btn_clear{
+	width: 150px;
+	border:0;
+	background-color: #E74C3C;
+	color: #fff;
+	padding: 10px 25px 10px 25px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.btn_clear:hover{
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+	background-color: #B03A2E;
+}

@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: linear-gradient(rgba(44, 43, 43, 0.1), rgba(44, 43, 43, 0.1)),
+    url(./images/background.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.logo img {
+  width: 200px;
+}
+.navBar {
+  width: 85%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0px;
+}
+.nav-links ul {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 60px;
+  color: white;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.nav-links ul li::after {
+  background: rgb(207, 169, 42);
+  width: 0%;
+  content: " ";
+  height: 3px;
+  display: block;
+  margin: auto;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+.content {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.title {
+  font-size: 60px;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.content p {
+  margin: 40px;
+}
+.h-btn {
+  border: 2px solid rgb(207, 169, 42);
+  padding: 20px 20px;
+  margin: 40px;
+  cursor: pointer;
+  background-position: left;
+  background: linear-gradient(to right, transparent 50%, #ffc107 50%);
+  transition: background-position 0.5s;
+  background-size: 200%;
+}
+.h-btn:hover {
+  background-position: right;
+  color: #000;
+}

@@ -1,0 +1,121 @@
+
+body{
+    background-color: #fff;
+  }
+  
+  ::after, ::before{
+    box-sizing: border-box;
+  }
+  
+  .form{
+    overflow: hidden;
+    text-align: center;
+    width: 800px;
+   
+  }
+
+  .headerandfooter{
+    position: relative;
+    text-align: center;
+    margin: 1rem;
+    padding: .1rem;
+  }
+  
+  .headerClass{
+    background-color: #0066ff;
+  }
+  
+  .headerClass h1{
+  
+    height: auto;
+    color: white;
+    font-size: 35px;
+  }
+  
+  .Details {
+    width:500PX;
+    margin: 20px;
+    margin-left: 500px;
+    margin-top: 150PX;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: .25rem;
+    padding: 10px;
+    flex-direction: column;
+    flex: 1 1 auto;
+    position: relative;
+    flex-wrap: wrap;
+    display: inline-block;
+  }
+  
+  .achr{
+    display: block;
+    width: 100%;
+    color: black;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 9px;
+    box-sizing: border-box;
+    border-radius: .25rem;
+    border-color: rgba(0, 0, 0, 0.15);
+  }
+  
+  .regClass{
+    background-color: black;
+    border-color: rgba(0,102,255, 0.8);
+    color: aliceblue;
+  }
+  .regClass:hover{
+    background-color: rgba(0,102,255, 1);
+  }
+  
+  .loginClass{
+    background-color: rgba(0, 0, 0, 0.50);
+    border-color: rgba(0, 0, 0, 0.50);
+  }
+  .loginClass:hover{
+    background-color: rgba(0, 0, 0, 0.60);
+  }
+  
+  .footerClass{
+    background-color: rgba(0, 0, 0, 0.50);
+    color: white;
+  }
+  
+  .formGrp{
+    text-align: left;
+  }
+  .labelGrp{
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .pContainer{
+    text-align: left;
+    margin: 10px;
+    color: rgba(0, 0, 0, .80);
+  }
+  .pContainer a{
+    text-decoration: none;
+    color: rgba(0,102,255, 1)
+  }
+  
+  .btn{
+    border-width: 0;
+  }
+  
+  @media (max-width:600px) {
+  
+    body{
+      margin: 0;
+      width: 100%;
+    }
+  
+  .Details{
+    margin: 0;
+    margin-right: 1px;
+    width: 90%;
+  }
+  
+  }
+  
