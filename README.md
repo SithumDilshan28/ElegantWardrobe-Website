@@ -12,8 +12,6 @@ Shopping Cart and Checkout: ElegantWardrobe provides a seamless shopping cart fu
 
 Product Filtering and Sorting: The application incorporates advanced filtering and sorting options to enhance the shopping experience. Customers can refine their search by size, color, price range, and other attributes, making it easier to find specific items. Sorting options such as popularity, price, and newest arrivals assist users in locating desired products efficiently.
 
-Payment Gateway Integration: ElegantWardrobe integrates a secure payment gateway, enabling customers to make online payments using various methods, including credit cards, debit cards, and digital wallets. This feature ensures a secure and hassle-free transaction process for customers.
-
 Order Management: The application includes a comprehensive order management system for administrators. It allows them to view and manage orders, update order status, and generate invoices. This feature provides administrators with full control over the order fulfillment process.
 
 Responsive Design: ElegantWardrobe is built with a responsive design, ensuring that the website is accessible and visually appealing across various devices and screen sizes. Whether customers access the website from their desktop computers, laptops, tablets, or smartphones, they will have a seamless browsing and shopping experience.
