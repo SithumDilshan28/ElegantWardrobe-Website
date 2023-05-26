@@ -1,4 +1,4 @@
-# ElegantWardrobe: PHP Web Application for Online Clothing Ecommerce
+# ElegantWardrobe: PHP Web Application for Online Clothing Ecommerce 
 
 ElegantWardrobe is a sophisticated PHP web application developed as a university project for the Web Development module. It serves as an online clothing ecommerce website, providing a seamless shopping experience for customers looking to explore and purchase fashionable apparel. ElegantWardrobe combines an elegant user interface with robust functionality to create a visually appealing and user-friendly online shopping platform.
 
